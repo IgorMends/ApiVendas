@@ -7,9 +7,7 @@ public sealed class Cliente : AbstractEntity
     public string Endereco { get; set; } = string.Empty;
     public string Telefone { get; set; } = string.Empty;
 
-    /// <summary>
-    /// To EF Core
-    /// </summary>
+    
     private Cliente() : base() { }
 
     public Cliente(string nome, string cpf, string endereco, string telefone)
